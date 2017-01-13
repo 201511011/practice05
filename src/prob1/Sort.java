@@ -18,7 +18,18 @@ public class Sort {
 		//
 		// 정렬 알고리즘이 적용된 코드를 여기에 작성합니다.
 		//
-
+		for(int i=0;i<count-1;i++){
+			
+			for(int k=0;k<count-(k);k++){
+				
+				if(array[k]<array[k+1]){
+					temp=array[k];
+					array[k]=array[k+1];
+					array[k+1]=temp;
+				}
+			}
+			
+		}
 		
 		
 		
